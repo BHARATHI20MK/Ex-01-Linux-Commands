@@ -1,5 +1,7 @@
 # Ex-01-Linux-Commands
 
+NAME : BHARATHI M K
+REG NO : 212223040026
 
 ## Aim:
 
@@ -100,12 +102,14 @@ Syntax: mv <file name> <directory path>
 The rename command is used to rename files. It is useful for renaming a large group of files.
 
 Syntax: rename 's/old-name/new-name/' files
+![Screenshot 2025-03-11 132718](https://github.com/user-attachments/assets/37ad2edc-5f2b-493c-9d0d-392bcd799c58)
 
 ### 12)	head Command
 
 The head command is used to display the content of a file. It displays the first 10 lines of a file.
 
 Syntax: head <file name>
+![Screenshot 2025-03-11 132735](https://github.com/user-attachments/assets/27c48a6c-f87b-4d0c-b095-196860d9e19f)
 
 
 ### 13)	tail Command
@@ -113,6 +117,7 @@ Syntax: head <file name>
 The tail command is similar to the head command. The difference between both commands is that it displays the last ten lines of the file content. It is useful for reading the error message.
 
 Syntax: tail <file name>
+![Screenshot 2025-03-11 132817](https://github.com/user-attachments/assets/f96d824c-82d6-4a7b-9959-87b2853a0aab)
 
  
 ### 14)	id Command
@@ -120,6 +125,7 @@ Syntax: tail <file name>
 The id command is used to display the user ID (UID) and group ID (GID).
 
 Syntax: id
+![Screenshot 2025-03-11 132838](https://github.com/user-attachments/assets/d0aeed95-f145-43d8-b9f1-6fbc284ca103)
 
 
 ### 15)	grep Command
@@ -127,13 +133,16 @@ Syntax: id
 The grep is the most powerful and used filter in a Linux system. The 'grep' stands for "global regular expression print." It is useful for searching the content from a file. Generally, it is used with the pipe.
 
 Syntax: command | grep <search word>
+![Screenshot 2025-03-11 132854](https://github.com/user-attachments/assets/fa3be1f0-8784-4578-b5b5-62e9f1a4ba55)
 
 
 ### 16)	tr Command
 
 The tr command is used to translate the file content like from lower case to upper case.
 
-Syntax: command | tr <'old'> <'new'>
+Syntax: command | tr 
+<'old'> <'new'>
+![Screenshot 2025-03-11 133005](https://github.com/user-attachments/assets/986aa342-f488-4635-b2e6-3a5ae38441f4)
 
 ### 17)	chmod Command
 
@@ -153,12 +162,14 @@ $ tar xvzf file.tar *.c
 The chown command is used to change ownership.
 
 Syntax: chown owner_name file_name
+![Screenshot 2025-03-11 133533](https://github.com/user-attachments/assets/252b9245-522d-4359-9a2e-8a58d37d6dbb)
 
 ### 20)	make Command
 
 The make command is used for building and maintaining group of program.
 
 Syntax: make [-f makefile][options]…….[targets]….
+![Screenshot 2025-03-11 133114](https://github.com/user-attachments/assets/89e84033-18cb-44ae-bcd6-abf455e8d02d)
 
 
 ### 21)	ifconfig Command
@@ -166,6 +177,7 @@ Syntax: make [-f makefile][options]…….[targets]….
 The ifconfig command is used to configure kernel-resident network interface.
 
 Syntax: ifconfig[options][interface]
+![Screenshot 2025-03-11 133600](https://github.com/user-attachments/assets/8ac5caec-84f7-45a9-ba13-68ed74ca94a7)
 
 ### 22)	chmod 777 Command
 
@@ -179,6 +191,7 @@ $chmod -R 777 /path/to/file/or/folder
 The host command is used to display the IP address for a given domain name and vice versa. It performs the DNS lookups for the DNS Query.
 
 Syntax: host <domain name> or <ip address>
+![Screenshot 2025-03-11 133146](https://github.com/user-attachments/assets/996fbba4-bea3-42e8-83d2-652dd0157a5b)
 
 
 ### 24)	gzip Command
@@ -186,6 +199,7 @@ Syntax: host <domain name> or <ip address>
 The gzip command is used to truncate the file size. It is a compressing tool. It replaces the original file by the compressed file having '.gz' extension.
 
 Syntax: gzip <file1> <file2> <file3>..
+![Screenshot 2025-03-11 133204](https://github.com/user-attachments/assets/15b0d89e-6939-4301-82e1-9457f952702f)
 
 
 ### 25)	sort Command
@@ -193,6 +207,7 @@ Syntax: gzip <file1> <file2> <file3>..
 The sort command is used to sort files in alphabetical order.
 
 Syntax:sort <file name>
+![Screenshot 2025-03-11 133231](https://github.com/user-attachments/assets/6d4bc0a7-9ab7-40a2-a432-6ffc0f72e634)
 
  
 ### 26)	cal Command
@@ -201,12 +216,14 @@ The cal command is used to display the current month's calendar with the current
 
 Syntax: cal
 
+![Screenshot 2025-03-11 133249](https://github.com/user-attachments/assets/657584a4-ebbb-407d-a6e9-1bd261ff2ada)
 
 ### 27)	clear Command
 
 Linux clear command is used to clear the terminal screen.
 
 Syntax: clear
+![Screenshot 2025-03-11 133308](https://github.com/user-attachments/assets/b99131a1-1ae7-4955-94bb-d638a5e8eeb1)
 
 
 ### 28)	mail Command
@@ -215,12 +232,14 @@ The mail command is used to send emails from the command line.
 
 Syntax: mail -s "Subject" <recipient address>
 
- 
+![Screenshot 2025-03-11 133323](https://github.com/user-attachments/assets/b7036427-7bfb-4bf8-ab9f-e4b9a42dced0)
+
 ### 29)	df Command
 
 The df command is used to display the disk space used in the file system. It displays the output as in the number of used blocks, available blocks, and the mounted directory.
 
 Syntax: df
+![Screenshot 2025-03-11 133404](https://github.com/user-attachments/assets/c962ff00-7c03-4baf-8ea2-bb2f932447f9)
 
 ### 30)	find Command
 
@@ -228,6 +247,8 @@ The find command is used to find a particular file within a directory.
 
 Syntax: find.-name”*.pdf”
 
+## Result:
+Thus, the execution of various Linux commands is executed successfully using Ubuntu OS.
 
 
 
