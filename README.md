@@ -22,6 +22,7 @@ All basic and advanced tasks can be done by executing commands. The commands are
 The ls command is used to display a list of content of a directory.
 
  Syntax: ls
+![image](https://github.com/user-attachments/assets/51e4cc94-2f80-4319-ad61-5c2bc9655d56)
 
 
 ### 2)	pwd Command
@@ -29,6 +30,7 @@ The ls command is used to display a list of content of a directory.
 The pwd command is used to display the location of the current working directory.
 
 Syntax: pwd
+![image](https://github.com/user-attachments/assets/d646479e-adf9-4800-908a-55582fcf9408)
 
  
 ### 3)	mkdir Command
@@ -36,6 +38,7 @@ Syntax: pwd
 The mkdir command is used to create a new directory under any directory.
 
 Syntax: mkdir <directory name>
+![image](https://github.com/user-attachments/assets/ab415393-6150-46ef-a302-3e96ee322e37)
 
 
 ### 4)	rmdir Command
@@ -43,6 +46,7 @@ Syntax: mkdir <directory name>
 The rmdir command is used to delete a directory.
 
 Syntax: rmdir <directory name>
+![image](https://github.com/user-attachments/assets/e96ac152-c747-4d7f-843f-366d1558aa05)
 
 
 ### 5)	cd Command
@@ -51,12 +55,14 @@ The cd command is used to change the current directory.
 
 Syntax: cd <directory name>
 
+![Screenshot 2025-03-11 131930](https://github.com/user-attachments/assets/13637293-c37f-4f41-90fe-e9762eb92881)
 
 ### 6)	cat Command
 
 The cat command is a multi-purpose utility in the Linux system. It can be used to create a file, display content of the file, copy the content of one file to another file, and more.
 
 Syntax: cat [OPTION]... [FILE]..
+[Screenshot 2025-03-11 132234](https://github.com/user-attachments/assets/e7634e89-dbd9-4cbb-b741-279c35cdc8b0)
 
  
 ### 7)	cp Command
@@ -65,13 +71,14 @@ The cp command is used to copy a file or directory.
 
 Syntax: cp <existing file name> <new file name>
 
-
+![Screenshot 2025-03-11 132309](https://github.com/user-attachments/assets/d68cfbff-3b7b-4587-9c37-83f46e80950e)
 
 ### 8)	gedit Command
 
 The gedit is a general-purpose text editor. It can be used to create and edit all kinds of text files.
 
 Syntax: gedit file_name
+![Screenshot 2025-03-11 132328](https://github.com/user-attachments/assets/c59af670-0b7b-4c9d-a6a5-e1ce252902a3)
 
 
 ### 9)	su Command
@@ -79,6 +86,7 @@ Syntax: gedit file_name
 The su command provides administrative access to another user. In other words, it allows access of the Linux shell to another user.
 
 Syntax: su <user name>
+![Screenshot 2025-03-11 132347](https://github.com/user-attachments/assets/9e48faed-16a5-4a12-9f6e-17170625d04e)
 
 
 ### 10)	mv Command
@@ -86,14 +94,12 @@ Syntax: su <user name>
 The mv command is used to move a file or a directory form one location to another location.
 
 Syntax: mv <file name> <directory path>
-
- 
+![Screenshot 2025-03-11 132406](https://github.com/user-attachments/assets/852ac176-3e61-460a-b02b-04955c52ee2d)
 ## 11)	rename Command
 
 The rename command is used to rename files. It is useful for renaming a large group of files.
 
 Syntax: rename 's/old-name/new-name/' files
-
 
 ### 12)	head Command
 
